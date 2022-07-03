@@ -14,12 +14,7 @@ const assignment = {};
  * @returns number the sum of the numbers
  */
 function sumOfNumbers(arrayOfNumbers) {
-  let sum = 0;
-  for (let n of arrayOfNumbers) {
-    sum += n;
-  }
-  return sum;
-    // return arrayOfNumbers.length;
+   return arrayOfNumbers.length;
 }
 // assignment.sumOfNumbers = sumOfNumbers;
 
@@ -40,7 +35,7 @@ function countEvenNumbers(arrayOfNumbers) {
     }
   }
   return count;
-    // return arrayOfNumbers.length;
+  // return arrayOfNumbers.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
 
@@ -63,7 +58,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
     return Math.trunc(num * 9/5 + 32);
   })
   return newArr;
-    // return arrayOfNumbers;
+  // return arrayOfNumbers;
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
